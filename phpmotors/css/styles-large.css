@@ -1,0 +1,57 @@
+@media only screen and (min-width:850px) {
+    body{
+        width:80%;
+        padding:20px;
+        font-size: larger;
+    }
+
+
+
+    
+
+    #nav-links{
+        
+        padding-left: 20px;
+        padding-right:20px;
+        font-size: 16pt;
+        
+        
+    }
+
+    .indv-nav-links{
+        padding-left:10px;
+       
+        
+    }
+
+    #ownBtn{
+        text-align: center;
+        background-color: #4c96d7;
+        font-family: 'Roboto Mono', Courier, monospace;
+        padding:15px;
+        font-size: 16pt;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        position: absolute;
+        top:375px;
+        border:none;
+    }  
+
+    #large-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:20px;
+    }
+
+    #car-review-sec{
+        grid-column: 2;
+        grid-row:1;
+    }
+
+    #car-upgrade-sec{
+        grid-column: 1;
+        grid-row:1;
+    }
+
+  }
